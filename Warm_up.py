@@ -1,4 +1,3 @@
-
 #1. print hello world
 c = 'Hello World'
 print(c)
@@ -33,11 +32,13 @@ while i <= num:
 i = 1
 while i <= 10:
     print("i is:", i)
-    i += 2 
+    i += 2
+
 # 7. Write a program that outputs all fruits inside the list of fruits = [“apple”, “banana”, “pear”]
 fruits = ['apple', 'banana', 'pear']
 for fruit in fruits:
     print('this is a fruit:',fruit)
+    
 # 8. Get a string from the user and then reverse the string and output it
 txt = input('what would you like to reverse? ' )[::-1]
 print(txt)
